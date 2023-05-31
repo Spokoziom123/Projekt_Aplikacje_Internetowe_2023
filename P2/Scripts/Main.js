@@ -1,3 +1,6 @@
+$(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
 const toggleButton = document.querySelectorAll(".toggle-button")[0];
 const navbarLinks = document.querySelectorAll(".navbar-links")[0];
 
